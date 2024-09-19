@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: book-catalog
-        image: <你的容器注册表URL>/book-catalog:latest
+        image: uniquecontainerregistrynamelll.azurecr.io/book-catalog:latest
         ports:
         - containerPort: 5000
 ---
